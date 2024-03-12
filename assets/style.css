@@ -1,0 +1,77 @@
+:root{
+  --color_texto_navbar: rgb(255, 248, 227);
+  --color_texto_boton: #4d3e6b;
+  --color_elementos_fieldset: #4d3e6b;
+  --color_boton: rgb(225, 175, 209);
+  --color_background: #FFE6E6;
+  --color_navBar: rgb(116, 105, 182);
+}
+body{
+  background-color: var(--color_background);
+}
+header{
+  background-color: var(--color_navBar);
+  color: var(--color_texto_navbar);
+  width: 100%;
+  height: 5rem;
+}
+header h1{
+  text-align: center;
+}
+.accordion-button{
+  background-color: var(--color_boton);
+  border-color:var(--color_boton); 
+}
+
+.accordion-header {
+  color: var(--color_texto_boton);
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button.btn{
+  background-color: var(--color_boton);
+  color: var(--color_texto_boton);
+  box-shadow: 3px 3px 3px #fdd8d8;
+}
+button.btn:hover{
+  background-color: var(--color_boton);
+  color: var(--color_texto_boton);
+  transform: scale(1.1, 1);
+  box-shadow: 2px 5px 5px var(--color_elementos_fieldset);
+}
+.accordion-body{
+  background-color: var(--color_texto_navbar);
+}
+
+mark { 
+  background-color: rgb(182, 182, 182);
+  font-weight: 500;
+  color: white;
+}
+code{
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+.code-solution{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(171, 113, 146);
+  color: white;
+}
+.output{
+  background-color: black ;
+  width: 100%;
+  height: 5rem;
+  box-shadow: 2px 5px 5px var(--color_elementos_fieldset);
+  margin: 1rem 0;
+}
+#fiveOutput{
+  background-color: black;
+}
+.code-console{
+  color: aliceblue;
+  background-color: black;
+}
+.lineFunction{
+  color: rgb(136, 255, 127);
+}
